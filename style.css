@@ -1,0 +1,147 @@
+/* font family */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+.box-2 {
+  background: crimson;
+}
+
+img {
+  width: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  color: rgb(255, 255, 255);
+  max-width: 1300px;
+  margin: 40px auto;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+.one {
+  grid-column: 1;
+  grid-row: 1;
+  background: crimson;
+  background: url(image/contact.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  background: rgb(70, 55, 55);
+  background: url(image/gym\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.three {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  background: #eee;
+  background: url(image/hero1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.four {
+  grid-column: 3;
+  grid-row: 3;
+  background: yellow;
+  background: url(image/hero\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.five {
+  grid-column: 2;
+  grid-row: 3/4;
+  background: #000;
+  background: url(image/hero\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.six {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: lightcoral;
+  background: url(image/hero\ 5.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.seven {
+  grid-column: 1/ 2;
+  grid-row: 5;
+  background: crimson;
+  background: url(image/hero\ image.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.eight {
+  grid-column: 2;
+  grid-row: 6/4;
+  background: rgb(228, 220, 220);
+  background: url(image/hero\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.nine {
+  grid-column: 3;
+  grid-row: 6/4;
+  background: lightskyblue;
+  background: url(image/pakage\ 3.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.ten {
+  grid-column: 1/3;
+  grid-row: 8/6;
+  background: lightskyblue;
+  background: url(image/pakage\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.eleven {
+  grid-column: 3;
+  grid-row: 9/6;
+  background: rgb(0, 41, 66);
+  background: url(image/pakage\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
+.twelve {
+  grid-column: 1/3;
+  grid-row: 9/8;
+  background: rgb(0, 41, 66);
+  background: url(image/hero\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+}
